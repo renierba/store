@@ -26,7 +26,7 @@ public class SwaggerConfig {
                                     .select()
                                     .apis(
                                             RequestHandlerSelectors
-                                            .basePackage("com.microservice.product.controller"))
+                                            .basePackage("com.rbn.store.product.controller"))
                                     .paths(PathSelectors.any())
                                     .build();
                 }
